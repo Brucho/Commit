@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RadioButton"
-        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="109dp" />
 
     <CheckBox
@@ -54,5 +54,20 @@
         android:text="CheckBox"
         tools:layout_editor_absoluteX="38dp"
         tools:layout_editor_absoluteY="54dp" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckedTextView"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="171dp" />
 
 </android.support.constraint.ConstraintLayout>
